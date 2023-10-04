@@ -14,20 +14,20 @@ body {
 .menu-fixo {
     background-color: #FFC3EA;
     color: rgb(143, 64, 64);
-    position: fixed;
+    position: 10;
     top: 0;
     left: 0;
-    width: 100%;
+    width:100%;
 }
 
 .menu-fixo nav ul {
     list-style: none;
-    padding: 0;
+    padding: 1100;
 }
 
 .menu-fixo nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .menu-fixo nav a {
@@ -38,11 +38,11 @@ body {
 
 /* Estilo do conteúdo principal */
 .conteudo {
-    padding: 60px 0;
+    padding: 12px 0;
 }
 
 .conteudo h1 {
-    font-size: 36px;
+    font-size: 50px;
     color: #392D16;
 }
 
@@ -65,4 +65,10 @@ nav ul li a:hover{
   color: #8A8697;
   text-decoration: underline;
 }
-color:
+
+.logo{
+  width: 55px;
+  height: 50px;
+  margin-right: 900px;
+  margin: 10px;
+}
